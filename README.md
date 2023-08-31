@@ -6,6 +6,7 @@ Welcome to the Jobs Listings App repository! Authenticated users can effortlessl
 
 1. [Running Locally](#running-locally)
 1. [Tech Stack](#tech-stack)
+1. [Routes](#routes)
 1. [Features](#features)
 
 ## Running Locally
@@ -16,13 +17,23 @@ Welcome to the Jobs Listings App repository! Authenticated users can effortlessl
 1. `cp .env.example .env`
 1. `php artisan migrate`
 1. `php artisan db:seed`
+1. `php artisan storage:link`
 1. `php artisan serve`
 
 ## Tech Stack
 
 1. Laravel
+1. Alpine.js
 1. Tailwind
 1. MySQL
+
+## Routes
+
+* / --> home page/landing page which shows all listings
+* listings/create --> shows form to create a listing
+* curricula/:id --> shows single listing
+* listings/:id/edit --> shows form to update single listing
+* listings/manage --> show all the listings of the currently authenticated user
 
 ## Features
 
