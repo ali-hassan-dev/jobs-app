@@ -42,7 +42,7 @@ Route::get('/listing/{listing}', [ListingController::class,'show']);
 
 //Show Create/Register Form
 Route::get('/register', [UserController::class,'create'])
-->middleware('guest'); //In Providers, RouteServiceProvider change home path to '/'
+->middleware('guest')->name('register'); //In Providers, RouteServiceProvider change home path to '/'
 
 //Create New User
 Route::post('/users', [UserController::class,'store'])->middleware('guest');
