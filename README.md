@@ -15,6 +15,7 @@ Welcome to the Jobs Listings App repository! Authenticated users can effortlessl
 1. `cd jobs-app`
 1. `composer install`
 1. `cp .env.example .env`
+1. Add your local database credentials in the .env file
 1. `php artisan migrate`
 1. `php artisan db:seed`
 1. `php artisan storage:link`
