@@ -1,6 +1,6 @@
 # Jobs App
 
-Welcome to the Jobs Listings App repository! Authenticated users can effortlessly post, edit, and delete their job listings, while unauthenticated users have the ability to browse through the available job opportunities and contact the employers. The app also features a tag-based filtering system to streamline the process of finding relevant job listings.
+Welcome to the Jobs Listings App repository! This application empowers users by providing a seamless platform for job seekers and employers to connect. Authenticated users can effortlessly post, edit, and manage their job listings, while unauthenticated users have the ability to browse through a diverse array of available job opportunities and easily contact employers.
 
 ## Table of Contents
 
@@ -17,7 +17,6 @@ Welcome to the Jobs Listings App repository! Authenticated users can effortlessl
 1. `cp .env.example .env`
 1. Add your local database credentials in the .env file
 1. `php artisan migrate`
-1. `php artisan db:seed`
 1. `php artisan storage:link`
 1. `php artisan serve`
 
@@ -32,7 +31,7 @@ Welcome to the Jobs Listings App repository! Authenticated users can effortlessl
 
 * / --> home page/landing page which shows all listings
 * listings/create --> shows form to create a listing
-* curricula/:id --> shows single listing
+* listings/:id --> shows single listing
 * listings/:id/edit --> shows form to update single listing
 * listings/manage --> show all the listings of the currently authenticated user
 
