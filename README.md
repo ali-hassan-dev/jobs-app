@@ -29,11 +29,11 @@ Welcome to the Jobs Listings App repository! This application empowers users by 
 
 ## Routes
 
-* / --> home page/landing page which shows all listings
-* listings/create --> shows form to create a listing
-* listings/:id --> shows single listing
-* listings/:id/edit --> shows form to update single listing
-* listings/manage --> show all the listings of the currently authenticated user
+* / --> home page/landing page which shows paginated listings
+* /listings/create --> shows the form to create a new listing
+* /listings/:id --> shows a single listing
+* /listings/:id/edit --> shows the form to edit and update your listing
+* /listings/manage --> show all the listings of the currently authenticated user
 
 ## Features
 
